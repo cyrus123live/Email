@@ -9,7 +9,7 @@ from string import Template
 # set up the SMTP server
 s = smtplib.SMTP(host='smtp.gmail.com', port=587)
 s.starttls()
-s.login("cyrus123live@gmail.com", "kukjzafzeyirxvvz")
+s.login(#"Your email here", "Your email's access code here")
 
 # add in the actual person name to the message template
 message = input("Please enter message: ")
